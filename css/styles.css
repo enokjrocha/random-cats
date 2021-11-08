@@ -1,0 +1,29 @@
+#titulo{
+    color: black;
+}
+
+body{
+    background-color: #fefbd8;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cat{
+    width: 30%;
+    height: 30%;
+}
+
+#change-cat{
+	color: black;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    margin-top: 2rem;
+}
+
